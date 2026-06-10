@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — do not commit large CSV/data files
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+# If the processed file is small enough to commit, remove the line above
+
+# Results — commit figures but not large binary outputs
+results/metrics/*.pkl
+results/metrics/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / local tooling
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# Credentials / secrets
+.env
+*.key
+
+# Proposal / assignment documents (deliverables, not code)
+*.docx
+*.pdf
