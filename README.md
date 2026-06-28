@@ -68,7 +68,7 @@ stroke-risk-prediction/
 ---
 
 ### Phase 2 — Baseline Modeling `June 15–20`
-**Owner:** TBD · **Notebook:** `notebooks/phase2_baseline/02_baseline_logistic.ipynb`
+**Owner:** Matthew Kallberg · **Notebook:** `notebooks/phase2_baseline/02_baseline_logistic.ipynb`
 
 - [ ] Stratified train/test split (fix `random_state=42`)
 - [ ] Logistic Regression baseline (no tuning)
@@ -83,7 +83,7 @@ stroke-risk-prediction/
 ---
 
 ### Phase 3 — Advanced Models & Imbalance Handling `June 18–26`
-**Owner:** 1–2 people · **Notebook:** `notebooks/phase3_advanced_models/03_advanced_models.ipynb`
+**Owner:** Tom (Xinsheng) Tang · **Notebook:** `notebooks/phase3_advanced_models/03_advanced_models.ipynb`
 
 - [ ] Imbalance strategies: `class_weight='balanced'`, SMOTE, undersampling, threshold tuning — compare ≥2
   > **Important:** Apply SMOTE and BMI imputation *after* the train/test split, fitted only on training data
@@ -102,7 +102,7 @@ stroke-risk-prediction/
 ---
 
 ### Phase 4 — Final Analysis & Slides `June 25–July 1`
-**Owner:** Shared (1 lead for slides) · **Notebook:** `notebooks/phase4_final_analysis/04_final_analysis.ipynb`
+**Owner:** Alina Kanayinkal & Carley Saeger · **Notebook:** `notebooks/phase4_final_analysis/04_final_analysis.ipynb`
 
 - [ ] Select the final model(s); document the decision rationale
 - [ ] Write conclusions: which features predict stroke, how well, and what the limitations are
@@ -144,9 +144,9 @@ stroke-risk-prediction/
 | Area | Owner |
 |------|-------|
 | EDA + data cleaning (Phase 1) | Carley Saeger |
-| Baseline models + logistic regression (Phase 2) | TBD |
-| Tree/boosting models + imbalance experiments (Phase 3) | TBD |
-| Slides + user manual + packaging (Phase 4–5 lead) | Alina Kanayinkal |
+| Baseline models + logistic regression (Phase 2) | Matthew Kallberg |
+| Tree/boosting models + imbalance experiments (Phase 3) | Tom (Xinsheng) Tang |
+| Slides + user manual + packaging (Phase 4–5 lead) | Alina Kanayinkal & Carley Saeger |
 
 ---
 
