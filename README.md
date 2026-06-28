@@ -52,7 +52,7 @@ stroke-risk-prediction/
 ## Phases & Timeline
 
 ### Phase 1 — Data Exploration & Cleaning `June 10–16`
-**Owner:** TBD · **Notebook:** `notebooks/phase1_eda/01_eda_cleaning.ipynb`
+**Owner:** Carley Saeger · **Notebook:** `notebooks/phase1_eda/01_eda_cleaning.ipynb`
 
 - [ ] Load raw CSV; quick sanity checks (shape, dtypes, nulls)
 - [ ] EDA: distributions, class imbalance check (`stroke` ≈ 5% positive), correlation heatmap
@@ -143,12 +143,10 @@ stroke-risk-prediction/
 
 | Area | Owner |
 |------|-------|
-| EDA + data cleaning (Phase 1) | TBD |
+| EDA + data cleaning (Phase 1) | Carley Saeger |
 | Baseline models + logistic regression (Phase 2) | TBD |
 | Tree/boosting models + imbalance experiments (Phase 3) | TBD |
-| Slides + user manual + packaging (Phase 4–5 lead) | TBD |
-
-> Update this table in your first team sync.
+| Slides + user manual + packaging (Phase 4–5 lead) | Alina Kanayinkal |
 
 ---
 
