@@ -1,0 +1,9 @@
+model,precision_stroke,recall_stroke,f1_stroke,roc_auc,accuracy
+RF + SMOTE (thr=0.10),0.1121,0.76,0.1954,0.7604,0.6937
+SVM + SMOTE (scaled),0.1292,0.54,0.2085,0.7784,0.7994
+Gradient Boosting + SMOTE,0.15,0.3,0.2,0.7578,0.8826
+RF + SMOTE,0.1667,0.14,0.1522,0.7604,0.9237
+LR L2 (C=0.1),1.0,0.02,0.0392,0.8386,0.9521
+LR Baseline,1.0,0.02,0.0392,0.8394,0.9521
+RF balanced weights,0.0,0.0,0.0,0.7832,0.9501
+LR L1 (C=0.1),0.0,0.0,0.0,0.8392,0.9511
